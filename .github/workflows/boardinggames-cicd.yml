@@ -21,7 +21,5 @@ jobs:
       with:
         node-version: 14.x
         cache: 'npm'
-    - name: Install
     - run: npm install
-    - name: Run unit tests
     - run: npm run test:unit
